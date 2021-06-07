@@ -20,20 +20,4 @@ export const data = [
     text:"Solve Task"
 },
 
-
-/* 
-    {
-    id:,
-    text:""
-},
-{
-    id:,
-    text:""
-},
-{
-    id:,
-    text:""
-},
-    
-*/
 ]

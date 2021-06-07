@@ -9,7 +9,10 @@ class Button extends Component {
         return (
 
             <button
-                className={this.props.isPurble ? "btn backgrounded-button" : "btn"}
+                className={this.props.isPurble ? 
+                    "btn backgrounded-button" 
+                    : "btn"}
+
                 onClick={this.props.handleClick}
             >
                 {this.props.text}

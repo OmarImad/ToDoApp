@@ -11,17 +11,16 @@ class App extends Component{
   return (
     <div className="App">
       <main>
+
         <div className="conteiner">
           {/* Screen */}
           <HomeScreen></HomeScreen>
         </div>
-      </main>
-     
+
+      </main> 
     </div>
   );
-
   }
-
 }
 
 export default App;

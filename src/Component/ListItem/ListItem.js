@@ -14,8 +14,10 @@ class ListItem extends Component {
                     {this.props.task}
                 </span>
 
-                <Button text="delete" isPurble={true}></Button>
-
+                <Button text="delete"
+                 isPurble={true} handleClick={this.props.handleDelete}
+                >
+                </Button>
             </div>
         )
     }
