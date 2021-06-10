@@ -1,24 +1,19 @@
-import { Component } from 'react'
 import './Styles.css'
 
-class Button extends Component {
-    constructor(props) {
-        super(props)
-    }
-    render() {
+function Button(props) {
         return (
-
             <button
-                className={this.props.isPurble ? 
+                className={props.isPurble ? 
                     "btn backgrounded-button" 
                     : "btn"}
 
-                onClick={this.props.handleClick}
+                onClick={props.handleClick}
             >
-                {this.props.text}
+
+                {props.text}
             </button>
         )
-    }
+    
 }
 
 export default Button

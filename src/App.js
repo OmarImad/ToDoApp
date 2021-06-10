@@ -1,17 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import { Component } from 'react';
 import HomeScreen from './Screens/HomeScreen/HomeScreen';
 
-class App extends Component{
-  constructor(){
-    super()
-  }
-  render(){
+function App(){
+
   return (
     <div className="App">
       <main>
-
         <div className="conteiner">
           {/* Screen */}
           <HomeScreen></HomeScreen>
@@ -21,6 +16,6 @@ class App extends Component{
     </div>
   );
   }
-}
+
 
 export default App;
