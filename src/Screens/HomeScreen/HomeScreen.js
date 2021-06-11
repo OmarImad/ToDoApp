@@ -65,7 +65,7 @@ const [error, setError] = useState('')
                     />
                     {error?
                         <span>
-                            {state.error}
+                            {error}
                         </span>
                         : null
                     }
@@ -87,8 +87,9 @@ const [error, setError] = useState('')
                             setError('')
                             setList(newArr)
 
-                        } else {
+                        }else {
                             setError("please submit a task")
+                        
                         }
                     }}
                 >
